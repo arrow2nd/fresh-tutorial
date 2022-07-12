@@ -1,11 +1,12 @@
 /** @jsx h */
 import { h } from "preact";
+import { tw } from "@twind";
 import { PageProps } from "$fresh/server.ts";
 
 export default function GreetPage({ params }: PageProps) {
   return (
-    <main>
+    <div class={tw`flex h-screen justify-center items-center`}>
       <p>Greetings to you, {params.name}!</p>
-    </main>
+    </div>
   );
 }

@@ -1,5 +1,7 @@
 # fresh project
 
+🍋 fresh のチュートリアルプロジェクト
+
 ### Usage
 
 Start the project:
